@@ -1,0 +1,10 @@
+ <div style="display:table-row;">
+  <textarea name="unflattenedObjectTextArea" rows="20" cols="50" style="display:table-cell;" ng-model="unflattenedObject">Write something here</textarea>
+  <div style="display:table-cell;">
+    <button name="flattenObjectButton" ng-click="flattenObject()" ng-disabled="flattenedObject">-->Flatten Object</button><br/>
+    <button name="unflattenObjectButton" ng-click="unflattenObject()"  ng-disabled="unflattenedObject"><--UnFlatten Object</button>
+  </div>
+  <textarea name="flattenedObjectTextArea" rows="20" cols="50" style="display:table-cell;" ng-model="flattenedObject">Write something here</textarea>
+  </div>
+  
+  <button name="reset" ng-click="reset()">Reset To Defaults</button>
